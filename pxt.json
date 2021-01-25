@@ -1,5 +1,5 @@
 {
-    "name": "30 min count up timer",
+    "name": "30 min count up fade  timer",
     "description": "",
     "dependencies": {
         "core": "*",
