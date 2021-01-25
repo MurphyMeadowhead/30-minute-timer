@@ -20,13 +20,6 @@ basic.forever(function () {
     while (Countdown_number == 30) {
         led.setBrightness(255)
         basic.showNumber(Countdown_number)
-        basic.pause(500)
-        basic.showString("FINAL MINUTE")
-        basic.pause(500)
-        basic.showNumber(Countdown_number)
-        basic.pause(500)
-        basic.showString("STAND BY")
-        basic.pause(500)
     }
 })
 basic.forever(function () {
@@ -55,7 +48,7 @@ basic.forever(function () {
     }
 })
 basic.forever(function () {
-    while (Countdown_number > 30) {
+    while (Countdown_number >= 31) {
         led.setBrightness(255)
         basic.showIcon(IconNames.No)
         basic.pause(1000)
